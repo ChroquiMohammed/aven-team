@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e393c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+main {
+  background-color: #faf5ef;
+  width: 90%;
+  max-width: 1100px;
+  border-radius: 18px;
+  padding: 2.5rem 4rem 3rem;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.top-left {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  color: #425053;
+  font-family: Verdana, sans-serif;
+}
+
+.top-midl > h1 {
+  font-weight: lighter;
+}
+
+.top-midl {
+  font-size: 1.4rem;
+}
+
+.main-page {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.main-left {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-midl {
+  width: calc(100% / 3);
+  display: flex;
+}
+
+.main-right {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.main-left-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.2rem;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.main-left-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem 0 0;
+}
+
+.names > h2 {
+  font-weight: lighter;
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.names {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.button-right,
+.button-left {
+  border: solid 2px #879a98;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.image {
+  width: 100%;
+}
+
+.image > img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1.2rem;
+}
+
+.main-right-top {
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.main-right-bottom {
+  width: 100%;
+}
+
+.main-right-bottom > h3 {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.main-right-bottom > p {
+  font-size: small;
+  font-weight: bold;
+  color: #9a9998;
+}
