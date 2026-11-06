@@ -1,19 +1,26 @@
-# AVEN — Our Team
+# AVEN Team Page
 
-A small HTML & CSS practice project: a team page for AVEN, with a list of team members, a photo and a quote.
+## Preview
 
-## What I practised
-- Flexbox layout with three columns
-- A card with a fixed header and a main section
-- Images with rounded corners
+![AVEN Team Page Preview](./Preview_Aven_Team_Page.jpg)
 
-## Project structure
-```
-index.html
-public/
-  css/index.css
-  images/image2.jpg
-```
+## About
 
-## How to run it
-Open `index.html` in a browser.
+A team page for AVEN, "The people behind AVEN", built with HTML & CSS.
+
+Practice project.
+
+## What it includes
+
+- Names list on the left: Emaly Harrison, Daniel Brooks, Sophia Carter, Evelyn Williams
+- Photo in the middle
+- Quote on the right from Sophia Carter, Nutrition Specialist
+
+## Tech
+
+- HTML
+- CSS (Flexbox)
+
+## How to open
+
+Open `index.html` in your browser.
